@@ -9,7 +9,7 @@
     url: https://api.itsour.space/oembed/
     docs_url: https://developers.itsour.space/api/oembed/
     example_urls:
-    - https://api.itsour.space/oembed?url=https://blogname.itsour.space/post/154545
+    - https://api.itsour.space/oembed?url=https%3A%2F%2Fblogname.itsour.space%2Fpost%2F154545
     - https://api.itsour.space/oembed?url=itsourspace%3post:154545
     discovery: true
 ...
