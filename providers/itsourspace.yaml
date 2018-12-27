@@ -1,0 +1,15 @@
+---
+- provider_name: Its Our Space
+  provider_url: https://www.itsour.space
+  endpoints:
+  - schemes:
+    - https://*.itsour.space/post/*
+    - https://itsour.space/blog/*/post/*
+    - itsourspace:*
+    url: https://api.itsour.space/oembed/
+    docs_url: https://developers.itsour.space/api/oembed/
+    example_urls:
+    - https://api.itsour.space/oembed?url=https://blogname.itsour.space/post/154545
+    - https://api.itsour.space/oembed?url=itsourspace%3post:154545
+    discovery: true
+...
